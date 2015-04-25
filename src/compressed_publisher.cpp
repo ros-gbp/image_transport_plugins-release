@@ -35,8 +35,7 @@
 #include "compressed_image_transport/compressed_publisher.h"
 #include <cv_bridge/cv_bridge.h>
 #include <sensor_msgs/image_encodings.h>
-#include <cv.h>
-#include <highgui.h>
+#include <opencv2/highgui/highgui.hpp>
 #include <boost/make_shared.hpp>
 
 #include "compressed_image_transport/compression_common.h"
@@ -117,10 +116,10 @@ void CompressedPublisher::publish(const sensor_msgs::Image& message, const Publi
         }
 
         // OpenCV-ros bridge
-        cv_bridge::CvImagePtr cv_ptr;
         try
         {
-          cv_ptr = cv_bridge::toCvCopy(message, targetFormat);
+          boost::shared_ptr<CompressedPublisher> tracked_object;
+          cv_bridge::CvImageConstPtr cv_ptr = cv_bridge::toCvShare(message, tracked_object, targetFormat);
 
           // Compress image
           if (cv::imencode(".jpg", cv_ptr->image, compressed.data, params))
@@ -175,10 +174,10 @@ void CompressedPublisher::publish(const sensor_msgs::Image& message, const Publi
         }
 
         // OpenCV-ros bridge
-        cv_bridge::CvImagePtr cv_ptr;
         try
         {
-          cv_ptr = cv_bridge::toCvCopy(message, targetFormat.str());
+          boost::shared_ptr<CompressedPublisher> tracked_object;
+          cv_bridge::CvImageConstPtr cv_ptr = cv_bridge::toCvShare(message, tracked_object, targetFormat.str());
 
           // Compress image
           if (cv::imencode(".png", cv_ptr->image, compressed.data, params))
