@@ -1,3 +1,28 @@
+## image_transport_plugins (jade) - 1.9.2-0
+
+The packages in the `image_transport_plugins` repository were released into the `jade` distro by running `/usr/bin/bloom-release --track jade --rosdistro jade image_transport_plugins` on `Sat, 25 Apr 2015 12:52:46 -0000`
+
+These packages were released:
+- `compressed_depth_image_transport`
+- `compressed_image_transport`
+- `image_transport_plugins`
+- `theora_image_transport`
+
+Version of package(s) in repository `image_transport_plugins`:
+- upstream repository: https://github.com/ros-perception/image_transport_plugins.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.9.2-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## image_transport_plugins (indigo) - 1.9.2-0
 
 The packages in the `image_transport_plugins` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --rosdistro indigo image_transport_plugins` on `Sat, 25 Apr 2015 12:48:57 -0000`
