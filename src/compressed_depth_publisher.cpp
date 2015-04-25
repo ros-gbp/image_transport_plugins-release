@@ -35,8 +35,7 @@
 #include "compressed_depth_image_transport/compressed_depth_publisher.h"
 #include <cv_bridge/cv_bridge.h>
 #include <sensor_msgs/image_encodings.h>
-#include <cv.h>
-#include <highgui.h>
+#include <opencv2/highgui/highgui.hpp>
 #include <boost/make_shared.hpp>
 
 #include "compressed_depth_image_transport/compression_common.h"
@@ -97,11 +96,11 @@ void CompressedDepthPublisher::publish(const sensor_msgs::Image& message, const 
   compressed.format += "; compressedDepth";
 
   // Check input format
+  params[0] = cv::IMWRITE_PNG_COMPRESSION;
+  params[1] = config_.png_level;
+
   if ((bitDepth == 32) && (numChannels == 1))
   {
-    params[0] = CV_IMWRITE_PNG_COMPRESSION;
-    params[1] = config_.png_level;
-
     float depthZ0 = config_.depth_quantization;
     float depthMax = config_.depth_max;
 
