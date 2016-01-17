@@ -2,6 +2,15 @@
 Changelog for package compressed_image_transport
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.9.3 (2016-01-17)
+------------------
+* remove useless tf dependencies
+* Using cfg-defined constants
+* Changed flag name, and corrected typo in flag use.
+* using IMREAD flags.
+* Updated for indigo-devel
+* Contributors: Cedric Pradalier, Vincent Rabaud
+
 1.9.2 (2015-04-25)
 ------------------
 * get code to compile with OpenCV3
