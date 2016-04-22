@@ -1,3 +1,30 @@
+## image_transport_plugins (kinetic) - 1.9.3-0
+
+The packages in the `image_transport_plugins` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --track kinetic --rosdistro kinetic image_transport_plugins` on `Fri, 22 Apr 2016 00:08:11 -0000`
+
+These packages were released:
+- `compressed_depth_image_transport`
+- `compressed_image_transport`
+- `image_transport_plugins`
+- `theora_image_transport`
+
+Version of package(s) in repository `image_transport_plugins`:
+
+- upstream repository: https://github.com/ros-perception/image_transport_plugins.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.9.3-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## image_transport_plugins (jade) - 1.9.3-0
 
 The packages in the `image_transport_plugins` repository were released into the `jade` distro by running `/usr/bin/bloom-release --track jade --rosdistro jade image_transport_plugins` on `Sun, 17 Jan 2016 22:57:03 -0000`
