@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(compressed_depth_image_transport)
 
+if (CMAKE_COMPILER_IS_GNUCC OR CMAKE_COMPILER_IS_GNUCXX)
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Werror")
+endif()
+
 find_package(OpenCV REQUIRED)
 find_package(catkin REQUIRED cv_bridge dynamic_reconfigure image_transport)
 
@@ -14,8 +18,7 @@ catkin_package(
   DEPENDS OpenCV
 )
 
-include_directories(include ${catkin_INCLUDE_DIRS})
-include_directories(SYSTEM ${OpenCV_INCLUDE_DIRS})
+include_directories(include ${catkin_INCLUDE_DIRS} ${OpenCV_INCLUDE_DIRS})
 
 add_library(${PROJECT_NAME} src/compressed_depth_publisher.cpp src/compressed_depth_subscriber.cpp src/manifest.cpp src/codec.cpp)
 add_dependencies(${PROJECT_NAME} ${PROJECT_NAME}_gencfg)
