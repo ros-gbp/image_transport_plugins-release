@@ -1,0 +1,188 @@
+ros-jade-compressed-depth-image-transport (1.9.5-0utopic) utopic; urgency=high
+
+  * disable -Werr
+  * Contributors: Vincent Rabaud
+
+ -- David Gossow <dgossow@willowgarage.com>  Sun, 02 Oct 2016 22:00:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.9.4-0utopic) utopic; urgency=high
+
+  * address gcc6 build error and tune
+    With gcc6, compiling fails with stdlib.h: No such file or directory,
+    as including '-isystem /usr/include' breaks with gcc6, cf.,
+    https://gcc.gnu.org/bugzilla/show_bug.cgi?id=70129.
+    This commit addresses this issue for this package in the same way
+    it was addressed in various other ROS packages. A list of related
+    commits and pull requests is at:
+    https://github.com/ros/rosdistro/issues/12783
+    Signed-off-by: Lukas Bulwahn <mailto:lukas.bulwahn@oss.bmw-carit.de>
+  * Fix a missing return statement and add -Wall -Werror.
+  * Contributors: Lukas Bulwahn, Mac Mason
+
+ -- David Gossow <dgossow@willowgarage.com>  Sat, 01 Oct 2016 22:00:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.9.3-0utopic) utopic; urgency=high
+
+  * Refactor the codec into its own .h and .cpp.
+  * remove useless tf dependencies
+  * Contributors: Mac Mason, Vincent Rabaud
+
+ -- David Gossow <dgossow@willowgarage.com>  Sat, 16 Jan 2016 23:00:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.9.2-0utopic) utopic; urgency=high
+
+  * use compression parameters for both depths
+    fixes #12 <https://github.com/ros-perception/image_transport_plugins/issues/12>
+  * get code to compile with OpenCV3
+  * Contributors: Vincent Rabaud
+
+ -- David Gossow <dgossow@willowgarage.com>  Fri, 24 Apr 2015 22:00:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.9.1-0utopic) utopic; urgency=high
+
+
+
+ -- David Gossow <dgossow@willowgarage.com>  Thu, 17 Jul 2014 22:00:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.9.0-0utopic) utopic; urgency=high
+
+
+
+ -- David Gossow <dgossow@willowgarage.com>  Thu, 15 May 2014 22:00:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.8.21-0utopic) utopic; urgency=high
+
+  * maintainer: david gossow
+  * Contributors: David Gossow
+
+ -- David Gossow <dgossow@willowgarage.com>  Wed, 26 Jun 2013 22:00:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.8.20-0utopic) utopic; urgency=high
+
+  * 1.8.19 -> 1.8.20
+  * Contributors: Julius Kammerl
+
+ -- David Gossow <dgossow@willowgarage.com>  Sun, 17 Mar 2013 23:00:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.8.19-0utopic) utopic; urgency=high
+
+  * 1.8.18 -> 1.8.19
+  * Contributors: Julius Kammerl
+
+ -- David Gossow <dgossow@willowgarage.com>  Sat, 23 Feb 2013 23:00:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.8.18-0utopic) utopic; urgency=high
+
+  * 1.8.17 -> 1.8.18
+  * fixing input format checks (enabling rgba, bgra) + minor fixes
+  * Contributors: Julius Kammerl
+
+ -- David Gossow <dgossow@willowgarage.com>  Thu, 07 Feb 2013 16:59:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.8.17-0utopic) utopic; urgency=high
+
+  * 1.8.16 -> 1.8.17
+  * Contributors: Julius Kammerl
+
+ -- David Gossow <dgossow@willowgarage.com>  Thu, 17 Jan 2013 23:00:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.8.16-0utopic) utopic; urgency=high
+
+  * 1.8.15 -> 1.8.16
+  * use the pluginlib script to remove some runtime warnings
+  * Contributors: Julius Kammerl, Vincent Rabaud
+
+ -- David Gossow <dgossow@willowgarage.com>  Wed, 16 Jan 2013 23:00:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.8.15-0utopic) utopic; urgency=high
+
+
+
+ -- David Gossow <dgossow@willowgarage.com>  Fri, 28 Dec 2012 19:11:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.8.14-0utopic) utopic; urgency=high
+
+
+
+ -- David Gossow <dgossow@willowgarage.com>  Fri, 28 Dec 2012 19:02:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.8.13-0utopic) utopic; urgency=high
+
+  * fix the bad exports
+  * make sure the plugins are visible by image_transport
+  * added license headers to various cpp and h files
+  * Contributors: Aaron Blasdel, Vincent Rabaud
+
+ -- David Gossow <dgossow@willowgarage.com>  Fri, 28 Dec 2012 18:06:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.8.12-0utopic) utopic; urgency=high
+
+  * fix downstream stuff in cmake
+  * Contributors: Dirk Thomas
+
+ -- David Gossow <dgossow@willowgarage.com>  Wed, 19 Dec 2012 18:30:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.8.11-0utopic) utopic; urgency=high
+
+  * fix cmake order
+  * Contributors: Dirk Thomas
+
+ -- David Gossow <dgossow@willowgarage.com>  Wed, 19 Dec 2012 16:17:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.8.10-0utopic) utopic; urgency=high
+
+  * fix dyn reconf
+  * Contributors: Dirk Thomas
+
+ -- David Gossow <dgossow@willowgarage.com>  Wed, 19 Dec 2012 16:03:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.8.9-0utopic) utopic; urgency=high
+
+  * switching to verion 1.8.9
+  * Contributors: Julius Kammerl
+
+ -- David Gossow <dgossow@willowgarage.com>  Tue, 18 Dec 2012 23:26:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.8.8-0utopic) utopic; urgency=high
+
+  * adding build_deb on message_generation & mrun_deb on message_runtime
+  * Updated package.xml for new buildtool_depend tag for catkin requirement
+  * Contributors: Julius Kammerl, mirzashah
+
+ -- David Gossow <dgossow@willowgarage.com>  Sun, 16 Dec 2012 23:00:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.8.7-0utopic) utopic; urgency=high
+
+  * adding missing tf build dependency
+  * Contributors: Julius Kammerl
+
+ -- David Gossow <dgossow@willowgarage.com>  Mon, 10 Dec 2012 14:29:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.8.6-0utopic) utopic; urgency=high
+
+  * switching to version 1.8.6
+  * Contributors: Julius Kammerl
+
+ -- David Gossow <dgossow@willowgarage.com>  Mon, 10 Dec 2012 14:08:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.8.5-0utopic) utopic; urgency=high
+
+  * adding missing build debs
+  * added class_loader_hide_library_symbols macros to CMakeList
+  * switching to 1.8.5
+  * Contributors: Julius Kammerl
+
+ -- David Gossow <dgossow@willowgarage.com>  Sat, 08 Dec 2012 23:00:00 -0000
+
+ros-jade-compressed-depth-image-transport (1.8.4-0utopic) utopic; urgency=high
+
+  * switching to version 1.8.4
+  * adding plugin.xml exports for pluginlib
+  * catkinizing theora_image_transport
+  * catkinizing compressed_depth_image_transport
+  * github migration from code.ros.org (r40053)
+  * Contributors: Julius Kammerl
+
+ -- David Gossow <dgossow@willowgarage.com>  Thu, 29 Nov 2012 23:00:00 -0000
+
+
