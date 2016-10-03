@@ -2,6 +2,11 @@
 Changelog for package compressed_depth_image_transport
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.9.5 (2016-10-03)
+------------------
+* disable -Werr
+* Contributors: Vincent Rabaud
+
 1.9.4 (2016-10-02)
 ------------------
 * address gcc6 build error and tune
