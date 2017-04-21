@@ -1,3 +1,30 @@
+## image_transport_plugins (lunar) - 1.9.5-0
+
+The packages in the `image_transport_plugins` repository were released into the `lunar` distro by running `/usr/bin/bloom-release image_transport_plugins -t lunar -r lunar --new-track` on `Fri, 21 Apr 2017 08:37:37 -0000`
+
+These packages were released:
+- `compressed_depth_image_transport`
+- `compressed_image_transport`
+- `image_transport_plugins`
+- `theora_image_transport`
+
+Version of package(s) in repository `image_transport_plugins`:
+
+- upstream repository: https://github.com/ros-perception/image_transport_plugins.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.9.5-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## image_transport_plugins (jade) - 1.9.5-0
 
 The packages in the `image_transport_plugins` repository were released into the `jade` distro by running `/usr/bin/bloom-release --track jade --rosdistro jade image_transport_plugins` on `Mon, 03 Oct 2016 19:46:16 -0000`
