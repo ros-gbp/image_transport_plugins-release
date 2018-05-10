@@ -1,0 +1,165 @@
+ros-melodic-image-transport-plugins (1.9.5-0bionic) bionic; urgency=high
+
+
+
+ -- David Gossow <dgossow@willowgarage.com>  Sun, 02 Oct 2016 22:00:00 -0000
+
+ros-melodic-image-transport-plugins (1.9.4-0bionic) bionic; urgency=high
+
+
+
+ -- David Gossow <dgossow@willowgarage.com>  Sat, 01 Oct 2016 22:00:00 -0000
+
+ros-melodic-image-transport-plugins (1.9.3-0bionic) bionic; urgency=high
+
+
+
+ -- David Gossow <dgossow@willowgarage.com>  Sat, 16 Jan 2016 23:00:00 -0000
+
+ros-melodic-image-transport-plugins (1.9.2-0bionic) bionic; urgency=high
+
+
+
+ -- David Gossow <dgossow@willowgarage.com>  Fri, 24 Apr 2015 22:00:00 -0000
+
+ros-melodic-image-transport-plugins (1.9.1-0bionic) bionic; urgency=high
+
+
+
+ -- David Gossow <dgossow@willowgarage.com>  Thu, 17 Jul 2014 22:00:00 -0000
+
+ros-melodic-image-transport-plugins (1.9.0-0bionic) bionic; urgency=high
+
+
+
+ -- David Gossow <dgossow@willowgarage.com>  Thu, 15 May 2014 22:00:00 -0000
+
+ros-melodic-image-transport-plugins (1.8.21-0bionic) bionic; urgency=high
+
+  * maintainer: david gossow
+  * buildtool_depend catkin, added metapackage CMakelists.txt
+  * Contributors: David Gossow
+
+ -- David Gossow <dgossow@willowgarage.com>  Wed, 26 Jun 2013 22:00:00 -0000
+
+ros-melodic-image-transport-plugins (1.8.20-0bionic) bionic; urgency=high
+
+  * 1.8.19 -> 1.8.20
+  * Contributors: Julius Kammerl
+
+ -- David Gossow <dgossow@willowgarage.com>  Sun, 17 Mar 2013 23:00:00 -0000
+
+ros-melodic-image-transport-plugins (1.8.19-0bionic) bionic; urgency=high
+
+  * 1.8.18 -> 1.8.19
+  * removing build dependencies from meta package
+  * Contributors: Julius Kammerl
+
+ -- David Gossow <dgossow@willowgarage.com>  Sat, 23 Feb 2013 23:00:00 -0000
+
+ros-melodic-image-transport-plugins (1.8.18-0bionic) bionic; urgency=high
+
+  * 1.8.17 -> 1.8.18
+  * Contributors: Julius Kammerl
+
+ -- David Gossow <dgossow@willowgarage.com>  Thu, 07 Feb 2013 16:59:00 -0000
+
+ros-melodic-image-transport-plugins (1.8.17-0bionic) bionic; urgency=high
+
+  * 1.8.16 -> 1.8.17
+  * Contributors: Julius Kammerl
+
+ -- David Gossow <dgossow@willowgarage.com>  Thu, 17 Jan 2013 23:00:00 -0000
+
+ros-melodic-image-transport-plugins (1.8.16-0bionic) bionic; urgency=high
+
+  * 1.8.15 -> 1.8.16
+  * removing build_tool dependency from meta package
+  * Contributors: Julius Kammerl
+
+ -- David Gossow <dgossow@willowgarage.com>  Wed, 16 Jan 2013 23:00:00 -0000
+
+ros-melodic-image-transport-plugins (1.8.15-0bionic) bionic; urgency=high
+
+
+
+ -- David Gossow <dgossow@willowgarage.com>  Fri, 28 Dec 2012 19:11:00 -0000
+
+ros-melodic-image-transport-plugins (1.8.14-0bionic) bionic; urgency=high
+
+
+
+ -- David Gossow <dgossow@willowgarage.com>  Fri, 28 Dec 2012 19:02:00 -0000
+
+ros-melodic-image-transport-plugins (1.8.13-0bionic) bionic; urgency=high
+
+
+
+ -- David Gossow <dgossow@willowgarage.com>  Fri, 28 Dec 2012 18:06:00 -0000
+
+ros-melodic-image-transport-plugins (1.8.12-0bionic) bionic; urgency=high
+
+
+
+ -- David Gossow <dgossow@willowgarage.com>  Wed, 19 Dec 2012 18:30:00 -0000
+
+ros-melodic-image-transport-plugins (1.8.11-0bionic) bionic; urgency=high
+
+
+
+ -- David Gossow <dgossow@willowgarage.com>  Wed, 19 Dec 2012 16:17:00 -0000
+
+ros-melodic-image-transport-plugins (1.8.10-0bionic) bionic; urgency=high
+
+
+
+ -- David Gossow <dgossow@willowgarage.com>  Wed, 19 Dec 2012 16:03:00 -0000
+
+ros-melodic-image-transport-plugins (1.8.9-0bionic) bionic; urgency=high
+
+  * switching to verion 1.8.9
+  * Contributors: Julius Kammerl
+
+ -- David Gossow <dgossow@willowgarage.com>  Tue, 18 Dec 2012 23:26:00 -0000
+
+ros-melodic-image-transport-plugins (1.8.8-0bionic) bionic; urgency=high
+
+  * adding build_deb on message_generation & mrun_deb on message_runtime
+  * Updated package.xml for new buildtool_depend tag for catkin requirement
+  * Contributors: Julius Kammerl, mirzashah
+
+ -- David Gossow <dgossow@willowgarage.com>  Sun, 16 Dec 2012 23:00:00 -0000
+
+ros-melodic-image-transport-plugins (1.8.7-0bionic) bionic; urgency=high
+
+  * adding missing tf build dependency
+  * Contributors: Julius Kammerl
+
+ -- David Gossow <dgossow@willowgarage.com>  Mon, 10 Dec 2012 14:29:00 -0000
+
+ros-melodic-image-transport-plugins (1.8.6-0bionic) bionic; urgency=high
+
+  * switching to version 1.8.6
+  * Contributors: Julius Kammerl
+
+ -- David Gossow <dgossow@willowgarage.com>  Mon, 10 Dec 2012 14:08:00 -0000
+
+ros-melodic-image-transport-plugins (1.8.5-0bionic) bionic; urgency=high
+
+  * more meta package fixing.. adding build debs
+  * fixing meta package
+  * fixed meta package
+  * switching to 1.8.5
+  * Contributors: Julius Kammerl
+
+ -- David Gossow <dgossow@willowgarage.com>  Sat, 08 Dec 2012 23:00:00 -0000
+
+ros-melodic-image-transport-plugins (1.8.4-0bionic) bionic; urgency=high
+
+  * switching to version 1.8.4
+  * adding image_transport_plugins meta package
+  * Contributors: Julius Kammerl
+
+ -- David Gossow <dgossow@willowgarage.com>  Thu, 29 Nov 2012 23:00:00 -0000
+
+
